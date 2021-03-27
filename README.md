@@ -52,6 +52,7 @@ POS-Tagger-for-Punctuation-Restoration/
 ```
 
 ## Dependencies
++ python >= 3.8.5
 + flair >= 0.8.0.post1
 + scikit_learn >= 0.24.1
 + torch >= 1.8.1
