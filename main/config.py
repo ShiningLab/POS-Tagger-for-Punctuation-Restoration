@@ -21,14 +21,14 @@ class Config(object):
         # roberta-base, roberta-large
         # xlm-roberta-base, xlm-roberta-large
         # funnel-transformer/large, funnel-transformer/xlarge
-        self.lan_model = 'xlm-roberta-base'
+        self.lan_model = 'funnel-transformer/xlarge'
         self.lan_model_config = AutoConfig.from_pretrained(self.lan_model) if self.lan_model else None
         self.pos = 'flair/upos-english-fast'
         self.X_TAG = 'X'
         # None, concat, add, xfmr
         self.use_pos = 'xfmr'
         # None, pretrained
-        self.pretrained_pos_embed = None if self.use_pos else None
+        self.pretrained_pos_embed = 'pretrained' if self.use_pos else None
         # None, random
         self.seq_sampling = 'random'
         # loss
