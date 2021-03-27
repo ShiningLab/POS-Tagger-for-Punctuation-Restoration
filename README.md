@@ -37,7 +37,7 @@ POS-Tagger-for-Punctuation-Restoration/
 │   │   │   │   ├── dev2012.txt
 │   │   │   │   ├── test2011.txt
 │   │   │   │   ├── test2011asr.txt
-│   │   │   │   ├── train2012.txt
+│   │   │   │   └── train2012.txt
 │   │   └── settings.py
 │   ├── src
 │   │   ├── models
@@ -63,6 +63,7 @@ POS-Tagger-for-Punctuation-Restoration/
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
 ```
+$ cd POS-Tagger-for-Punctuation-Restoration
 $ cd main
 $ pip install pip --upgrade
 $ pip install -r requirements.txt
