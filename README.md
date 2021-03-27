@@ -20,7 +20,7 @@ This repository is for the paper *Incorporating External POS Tagger for Punctuat
 ## Directory
 + **main** - Source Code
 + **main/config.py** - Training Configurations
-+ **main/res/raw** - IWSLT Source Data
++ **main/res/data/raw** - IWSLT Source Data
 + **main/src/models** - Model
 + **main/src/utils** - Helper Function
 + **reference** - Literature
@@ -32,11 +32,12 @@ POS-Tagger-for-Punctuation-Restoration/
 ├── main
 │   ├── config.py
 │   ├── res
-│   │   ├── raw
-│   │   │   ├── dev2012.txt
-│   │   │   ├── test2011.txt
-│   │   │   ├── test2011asr.txt
-│   │   │   └── train2012.txt
+│   │   ├── data
+│   │   │   ├── raw
+│   │   │   │   ├── dev2012.txt
+│   │   │   │   ├── test2011.txt
+│   │   │   │   ├── test2011asr.txt
+│   │   │   │   ├── train2012.txt
 │   │   └── settings.py
 │   ├── src
 │   │   ├── models
@@ -53,12 +54,11 @@ POS-Tagger-for-Punctuation-Restoration/
 
 ## Dependencies
 + python >= 3.8.5
-+ flair >= 0.8.0.post1
++ flair >= 0.8.
 + scikit_learn >= 0.24.1
-+ torch >= 1.8.1
-+ tqdm >= 4.59.0
-+ transformers >= 4.4.2
-
++ torch >= 1.7.1
++ tqdm >= 4.57.0
++ transformers >= 4.3.2
 
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
@@ -66,6 +66,15 @@ Please ensure required packages are already installed. A virtual environment is 
 $ cd main
 $ pip install pip --upgrade
 $ pip install -r requirements.txt
+Looking in indexes: http://mirrors.cloud.aliyuncs.com/pypi/simple/
+Collecting flair==0.8
+  Downloading http://mirrors.cloud.aliyuncs.com/pypi/packages/16/a9/02ab3594958a89c5477f2820a19158187e095763ab6d5d6c0aa5a896087c/flair-0.8-py3-none-any.whl (277 kB)
+     |████████████████████████████████| 277 kB 23.4 MB/s
+...
+...
+...
+Installing collected packages: urllib3, numpy, idna, chardet, zipp, tqdm, smart-open, six, scipy, requests, regex, PySocks, pyparsing, joblib, decorator, click, wrapt, wcwidth, typing-extensions, tokenizers, threadpoolctl, sentencepiece, sacremoses, python-dateutil, pillow, packaging, overrides, networkx, kiwisolver, importlib-metadata, gensim, future, filelock, cycler, cloudpickle, transformers, torch, tabulate, sqlitedict, segtok, scikit-learn, mpld3, matplotlib, lxml, langdetect, konoha, janome, hyperopt, huggingface-hub, gdown, ftfy, deprecated, bpemb, flair
+Successfully installed PySocks-1.7.1 bpemb-0.3.2 chardet-4.0.0 click-7.1.2 cloudpickle-1.6.0 cycler-0.10.0 decorator-4.4.2 deprecated-1.2.12 filelock-3.0.12 flair-0.8 ftfy-5.9 future-0.18.2 gdown-3.12.2 gensim-3.8.3 huggingface-hub-0.0.7 hyperopt-0.2.5 idna-2.10 importlib-metadata-3.7.3 janome-0.4.1 joblib-1.0.1 kiwisolver-1.3.1 konoha-4.6.4 langdetect-1.0.8 lxml-4.6.3 matplotlib-3.4.0 mpld3-0.3 networkx-2.5 numpy-1.19.5 overrides-3.1.0 packaging-20.9 pillow-8.1.2 pyparsing-2.4.7 python-dateutil-2.8.1 regex-2021.3.17 requests-2.25.1 sacremoses-0.0.43 scikit-learn-0.24.1 scipy-1.6.2 segtok-1.5.10 sentencepiece-0.1.95 six-1.15.0 smart-open-4.2.0 sqlitedict-1.7.0 tabulate-0.8.9 threadpoolctl-2.1.0 tokenizers-0.10.1 torch-1.7.1 tqdm-4.57.0 transformers-4.3.2 typing-extensions-3.7.4.3 urllib3-1.26.4 wcwidth-0.2.5 wrapt-1.12.1 zipp-3.4.1
 ```
 
 ## Run
