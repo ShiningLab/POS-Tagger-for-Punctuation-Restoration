@@ -69,6 +69,7 @@ $ pip install -r requirements.txt
 ## Run
 Before training, please take a look at the **config.py** to ensure training configurations.
 ```
+$ cd main
 $ vim config.py
 $ python train.py
 ```
