@@ -1,0 +1,5 @@
+flair==0.8.0.post1
+scikit_learn==0.24.1
+torch==1.8.1
+tqdm==4.59.0
+transformers==4.4.2
