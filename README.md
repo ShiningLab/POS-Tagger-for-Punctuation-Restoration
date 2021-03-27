@@ -63,6 +63,7 @@ POS-Tagger-for-Punctuation-Restoration/
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
 ```
+$ cd main
 $ pip install pip --upgrade
 $ pip install -r requirements.txt
 ```
@@ -70,7 +71,6 @@ $ pip install -r requirements.txt
 ## Run
 Before training, please take a look at the **config.py** to ensure training configurations.
 ```
-$ cd main
 $ vim config.py
 $ python train.py
 ```
