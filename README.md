@@ -170,5 +170,12 @@ Loss:0.9846:   1%|█▊                                                        
 
 ## BibTex
 ```
-Submitted.
+@misc{ning2021,
+  author = {Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
+  title = {Incorporating External POS Tagger for Punctuation Restoration},
+  year = {2021},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ShiningLab/POS-Tagger-for-Punctuation-Restoration}}
+}
 ```
