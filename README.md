@@ -1,5 +1,5 @@
 # POS-Tagger-for-Punctuation-Restoration
-This repository is for the paper *Incorporating External POS Tagger for Punctuation Restoration*.
+This repository is for the paper Incorporating External POS Tagger for Punctuation Restoration in proceedings of the [*2021 Conference of the International Speech Communication Association (INTERSPEECH)*](https://www.interspeech2021.org/).
 
 ## Methods
 + Language Model -> Linear Layer
@@ -170,12 +170,10 @@ Loss:0.9846:   1%|█▊                                                        
 
 ## BibTex
 ```
-@misc{ning2021,
-  author = {Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
-  title = {Incorporating External POS Tagger for Punctuation Restoration},
-  year = {2021},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/ShiningLab/POS-Tagger-for-Punctuation-Restoration}}
+@inproceedings{ning2021,
+  author={Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
+  title={{Incorporating External POS Tagger for Punctuation Restoration}}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021}
 }
 ```
