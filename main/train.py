@@ -19,6 +19,7 @@ from config import Config
 from src.utils import save, load, pipeline
 from src.utils.eva import Evaluater
 
+
 class Restorer(object):
     """docstring for Restorer"""
     def __init__(self):
@@ -56,6 +57,7 @@ class Restorer(object):
                 self.config.tag_size = len(self.pos_tagger.tag_dictionary) if self.pos_tagger else None
                 if self.config.pretrained_pos_embed:
                     self.config.embedding_size = self.pos_tagger.linear.weight.shape[-1]
+                    
     def load_data(self): 
         for file in [self.config.TRAIN_FILE, self.config.VALID_FILE
         , self.config.REF_TEST_FILE, self.config.ASR_TEST_FILE]:
