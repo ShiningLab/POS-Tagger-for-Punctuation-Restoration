@@ -21,9 +21,8 @@ This repository is for the paper Incorporating External POS Tagger for Punctuati
 + **main** - Source Code
 + **main/config.py** - Training Configurations
 + **main/res/data/raw** - IWSLT Source Data
-+ **main/src/models** - Model
++ **main/src/models** - Models
 + **main/src/utils** - Helper Function
-+ **reference** - Literature
 + **eva.xlsx** - Evaluation Results
 ```
 POS-Tagger-for-Punctuation-Restoration/
@@ -49,7 +48,6 @@ POS-Tagger-for-Punctuation-Restoration/
 │   │       ├── pipeline.py
 │   │       └── save.py
 │   └── train.py
-└── reference
 ```
 
 ## Dependencies
@@ -81,6 +79,7 @@ Successfully installed PySocks-1.7.1 bpemb-0.3.2 chardet-4.0.0 click-7.1.2 cloud
 ## Run
 Before training, please take a look at the **config.py** to ensure training configurations.
 ```
+$ cd main
 $ vim config.py
 $ python train.py
 ```
@@ -170,10 +169,10 @@ Loss:0.9846:   1%|█▊                                                        
 
 ## BibTex
 ```
-@inproceedings{ning2021,
-  author={Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
-  title={{Incorporating External POS Tagger for Punctuation Restoration}}},
-  year=2021,
-  booktitle={Proc. Interspeech 2021}
+@inproceedings{ning2021, 
+author={Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
+title={Incorporating External POS Tagger for Punctuation Restoration},
+year=2021,
+booktitle={Interspeech 2021}
 }
 ```
