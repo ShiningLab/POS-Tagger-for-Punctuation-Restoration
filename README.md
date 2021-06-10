@@ -1,5 +1,5 @@
 # POS-Tagger-for-Punctuation-Restoration
-This repository is for the paper *Incorporating External POS Tagger for Punctuation Restoration*.
+This repository is for the paper Incorporating External POS Tagger for Punctuation Restoration in proceedings of the [*2021 Conference of the International Speech Communication Association (INTERSPEECH)*](https://www.interspeech2021.org/).
 
 ## Methods
 + Language Model -> Linear Layer
@@ -37,7 +37,7 @@ POS-Tagger-for-Punctuation-Restoration/
 │   │   │   │   ├── dev2012.txt
 │   │   │   │   ├── test2011.txt
 │   │   │   │   ├── test2011asr.txt
-│   │   │   │   ├── train2012.txt
+│   │   │   │   └── train2012.txt
 │   │   └── settings.py
 │   ├── src
 │   │   ├── models
@@ -63,6 +63,7 @@ POS-Tagger-for-Punctuation-Restoration/
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
 ```
+$ cd POS-Tagger-for-Punctuation-Restoration
 $ cd main
 $ pip install pip --upgrade
 $ pip install -r requirements.txt
@@ -169,5 +170,10 @@ Loss:0.9846:   1%|█▊                                                        
 
 ## BibTex
 ```
-Submitted.
+@inproceedings{ning2021,
+  author={Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
+  title={{Incorporating External POS Tagger for Punctuation Restoration}}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021}
+}
 ```
