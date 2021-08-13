@@ -3,3 +3,5 @@ scikit_learn==0.24.1
 torch==1.7.1
 tqdm==4.57.0
 transformers==4.3.2
+jupyterlab==3.1.4
+ipywidgets==7.6.3

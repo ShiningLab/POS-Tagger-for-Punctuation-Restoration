@@ -19,7 +19,9 @@ This repository is for the paper [Incorporating External POS Tagger for Punctuat
 
 ## Directory
 + **main** - Source Code
++ **main/train.py** - Training Process
 + **main/config.py** - Training Configurations
++ **main/main.ipynb** - Inference Demo
 + **main/res/data/raw** - IWSLT Source Data
 + **main/src/models** - Models
 + **main/src/utils** - Helper Function
@@ -47,16 +49,19 @@ POS-Tagger-for-Punctuation-Restoration/
 │   │       ├── load.py
 │   │       ├── pipeline.py
 │   │       └── save.py
-│   └── train.py
+│   ├── train.py
+│   └── main.ipynb
 ```
 
 ## Dependencies
 + python >= 3.8.5
++ jupyterlab >= 3.1.4
 + flair >= 0.8.
 + scikit_learn >= 0.24.1
 + torch >= 1.7.1
 + tqdm >= 4.57.0
 + transformers >= 4.3.2
++ ipywidgets >= 7.6.3
 
 ## Setup
 Please ensure required packages are already installed. A virtual environment is recommended.
@@ -160,6 +165,10 @@ if load check point: False
 Training...
 Loss:0.9846:   1%|█▊                                                                                                                                                                                                    | 5/559 [00:02<03:30,  2.63it/s]
 ```
+
+## Demo
+Please find the inference demo in ***main.ipynb***, where we show how to employ an example checkpoint to restore punctuations for test samples.
+
 ## Note
 1. It takes time to prepare POS tags for the first time running.
 2. There will be a warning regarding hugging face tokenizer with parallel processing. Just ignore it or rerun the ***train.py*** with the same ***config.py***.
