@@ -178,10 +178,12 @@ Please find the inference demo in ***main.ipynb***, where we show how to employ 
 
 ## BibTex
 ```
-@inproceedings{ning2021, 
-author={Ning Shi, Wei Wang, Boxin Wang, Jinfeng Li, Xiangyu Liu, Zhouhan Lin},
-title={Incorporating External POS Tagger for Punctuation Restoration},
-year=2021,
-booktitle={Interspeech 2021}
+@inproceedings{shi21_interspeech,
+  author={Ning Shi and Wei Wang and Boxin Wang and Jinfeng Li and Xiangyu Liu and Zhouhan Lin},
+  title={{Incorporating External POS Tagger for Punctuation Restoration}},
+  year=2021,
+  booktitle={Proc. Interspeech 2021},
+  pages={1987--1991},
+  doi={10.21437/Interspeech.2021-1708}
 }
 ```
