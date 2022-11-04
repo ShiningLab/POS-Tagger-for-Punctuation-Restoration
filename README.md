@@ -1,5 +1,5 @@
 # POS-Tagger-for-Punctuation-Restoration
-This repository is for the paper [Incorporating External POS Tagger for Punctuation Restoration](https://www.isca-speech.org/archive/interspeech_2021/shi21_interspeech.html) in proceedings of [Interspeech 2021](https://www.interspeech2021.org/).
+This repository is for the paper [Incorporating External POS Tagger for Punctuation Restoration](https://www.isca-speech.org/archive/interspeech_2021/shi21_interspeech.html). Proc. Interspeech 2021, 1987-1991, doi: 10.21437/Interspeech.2021-1708.
 
 ## Methods
 + Language Model -> Linear Layer
