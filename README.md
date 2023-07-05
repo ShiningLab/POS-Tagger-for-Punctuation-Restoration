@@ -1,7 +1,7 @@
 # POS-Tagger-for-Punctuation-Restoration
 This repository is for the paper [Incorporating External POS Tagger for Punctuation Restoration](https://www.isca-speech.org/archive/interspeech_2021/shi21_interspeech.html). Proc. Interspeech 2021, 1987-1991, doi: 10.21437/Interspeech.2021-1708.
 
-[[arXiv](https://arxiv.org/abs/2106.06731)] [[Poster](http://www.shininglab.ai/assets/posters/Incorporating_External_POS_Tagger_for_Punctuation_Restoration.pdf)] [[Slides](https://www.shininglab.ai/assets/slides/Incorporating_External_POS_Tagger_for_Punctuation_Restoration.pdf)] [[Video](https://youtu.be/haBlCTBZ7H4)]
+[[arXiv](https://arxiv.org/abs/2106.06731)] [[Poster](https://www.shininglab.ai/assets/posters/Incorporating%20External%20POS%20Tagger%20for%20Punctuation%20Restoration.pdf)] [[Slides](https://www.shininglab.ai/assets/slides/Incorporating%20External%20POS%20Tagger%20for%20Punctuation%20Restoration.pdf)] [[Video](https://youtu.be/haBlCTBZ7H4)]
 
 ## Methods
 + Language Model -> Linear Layer
